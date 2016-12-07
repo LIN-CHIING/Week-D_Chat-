@@ -1,0 +1,78 @@
+body{
+  background-image:url(../img/01.jpg);
+}
+body h1{
+  font-size:60px;
+  color: saddlebrown;
+  font-family: Lithos Pro black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right:auto;;
+  border-radius: 10px;
+}
+
+#sign-info {
+  color: peru;
+  font-size: 120%;
+}
+
+#user-info {
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-pic {
+  padding:10px;
+  width: 72px;
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+.demo-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+#user-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#user-info ul li {
+    font-family: Roboto;
+    /*font-size: 120%;*/
+    /*font-weight: 300;*/
+    /*margin-bottom: 10px;*/
+    line-height: 24px;
+}
+
+.messageinfo ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+}
+.messageinfo ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.messageinfo ul li:last-child {
+    margin: 0px;
+}
+.messageinfo ul .example-chat-username {
+    margin-right: 10px;
+}
